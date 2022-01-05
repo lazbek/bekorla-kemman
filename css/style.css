@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    background: linear-gradient( rgb(217, 248, 145) 40%, rgb(152, 223, 19)60%);
+    padding: 25px 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;   
+}
+.header__logo{
+    color: blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+.nav__list{
+    display: flex;
+    gap: 20px;
+}
+.nav__link{
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background: linear-gradient( rgb(217, 248, 145) 40%, rgb(152, 223, 19)60%);
+    padding: 25px 0;
+    
+}
